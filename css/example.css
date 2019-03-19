@@ -1,0 +1,500 @@
+html
+{
+  width: 100%;
+  height: 100%;
+}
+
+body
+{
+  width: 100%;
+  height: 100%;
+}
+
+footer
+{
+  margin-top: 50px;
+  background-image: linear-gradient(-45deg, #6f86d6 0%, #48c6ef 100%);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+input
+{
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 400 !important;
+  border-radius: 25px !important;
+}
+
+textarea
+{
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 400 !important;
+  border-radius: 15px !important;
+}
+
+#sendBtn
+{
+  margin-top: 15px;
+  border-radius: 25px;
+  width: 150px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#menuGrid
+{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-image: linear-gradient(-45deg, #6f86d6f2 0%, #48c6eff2 100%), url('../res/images/code-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#langDropdown
+{
+  color: white;
+  float: right;
+  font-size: 18px;
+}
+
+#entranceGrid
+{
+  background-image: url('../res/images/home-bg1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#entranceTitle
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  width: 700px;
+  text-align: center;
+  color: white;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 35px;
+}
+
+#entranceBtn
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 25px;
+  width: 150px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#entranceBtn:hover
+{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#contactBtn
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  border-radius: 25px;
+  width: 150px;
+  position: relative;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#contactBtn:hover
+{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#servicesBtnGrid
+{
+  background-image: url('../res/images/home-bg2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#servicesGrid
+{
+  background-image: url('../res/images/home-bg2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#servicesGridBtn
+{
+  border-radius: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+#footerText
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+#portfolioSample1
+{
+  background-image: url('../res/images/compass-plus-index.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  margin: 25px !important;
+  height: 350px;
+  cursor: pointer;
+  margin-right: 3%;
+  border-radius: 10px;
+}
+
+#portfolioSample2
+{
+  background-image: url('../res/images/dd-pro-photographer-index.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  margin: 25px !important;
+  height: 350px;
+  cursor: pointer;
+  margin-left: 3%;
+  border-radius: 10px;
+}
+
+#portfolioSample3
+{
+  background-image: url('../res/images/og-pro-composer-index.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  margin: 25px !important;
+  height: 350px;
+  cursor: pointer;
+  margin-right: 3%;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+#portfolioSample4
+{
+  background-image: url('../res/images/space-pix-index.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  margin: 25px !important;
+  height: 350px;
+  cursor: pointer;
+  margin-left: 3%;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+#aboutBtn
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  border-radius: 25px;
+  width: 150px;
+  position: relative;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#aboutBtn:hover
+{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#aboutGrid
+{
+  background-image: url('../res/images/about-bg1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+#aboutBrandCol
+{
+  background-image: url('../res/images/icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+}
+
+#aboutText
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 16px;
+}
+
+#aboutTitle
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+}
+
+#aboutTextCol
+{
+  background-color: rgba(67, 145, 255, 0.6);
+  padding-top: 10% !important;
+  padding-bottom: 10% !important;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#contactInfoGrid
+{
+  background-image: url('../res/images/contact-bg1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+#contactInfoCol
+{
+  background-color: rgba(67, 145, 255, 0.6);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#contactTitle
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #404040;
+  margin-top: 60px;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#contactFormText
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #404040;
+  margin-top: 60px;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+}
+
+#contactFormGrid
+{
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 25px;
+}
+
+.servicesTitle
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #404040;
+}
+
+.servicesText
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #404040;
+}
+
+.menuItem
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
+.menuItem:hover
+{
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.portfolioSample:hover
+{
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+.servicesGridTitle
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #404040;
+}
+
+.servicesGridText
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.entranceCol
+{
+  background-color: rgba(67, 145, 255, 0.6);
+}
+
+.dropdownItem
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.menuLink
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+  margin-right: 15px;
+}
+
+.menuLink:hover
+{
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.menuIcon
+{
+  font-size: 25px;
+  color: white;
+}
+
+.menuSocialIcon
+{
+  float: right;
+  margin-left: 10px;
+}
+
+.contactIcon
+{
+  font-size: 20px;
+  color: white;
+}
+
+.contactText
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+.worksCol
+{
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 200px;
+  cursor: pointer;
+  margin-right: 3%;
+  border-radius: 7px;
+}
+
+@media only screen and (max-width: 768px)
+{
+  #entranceTitle
+  {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 400px;
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1920px)
+{
+  #portfolioSample1
+  {
+    background-image: url('../res/images/compass-plus-index.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: 25px !important;
+    height: 500px;
+    cursor: pointer;
+    margin-right: 3%;
+    border-radius: 10px;
+  }
+
+  #portfolioSample2
+  {
+    background-image: url('../res/images/dd-pro-photographer-index.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: 25px !important;
+    height: 500px;
+    cursor: pointer;
+    margin-left: 3%;
+    border-radius: 10px;
+  }
+
+  #portfolioSample3
+  {
+    background-image: url('../res/images/og-pro-composer-index.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: 25px !important;
+    height: 500px;
+    cursor: pointer;
+    margin-right: 3%;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+
+  #portfolioSample4
+  {
+    background-image: url('../res/images/space-pix-index.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: 25px !important;
+    height: 500px;
+    cursor: pointer;
+    margin-left: 3%;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+}
